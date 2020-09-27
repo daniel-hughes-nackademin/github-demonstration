@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello Github");
+       greetPerson("Github");
+    }
+
+    private static void greetPerson(String input){
+        System.out.println("Hello " + input);
     }
 }
